@@ -11,7 +11,7 @@ h1{
 	height: 150px;
 	width: 150px;
 	margin: 5px;
-	background-image: ;
+	box-shadow: none;
 }
 
 .pokepoke {

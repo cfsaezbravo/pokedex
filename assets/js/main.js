@@ -13,6 +13,7 @@ $(document).ready(function($){
             $('.pokemon').append(pokePic);
             }
             $('#modal1').modal('open');
+            $('#modal1').modal('close');
         })
         .fail(function(){
             console.log('error');
