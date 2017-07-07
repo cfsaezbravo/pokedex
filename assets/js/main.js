@@ -9,9 +9,10 @@ $(document).ready(function($){
         })
         .done(function(response) {
             for (var i = 1; i < 719; i++) {
-            var pokePic = $("<div class = 'col l3 m3 s3 xs1'><img class = 'pokepoke' src=http://pokeapi.co/media/img/" + i + ".png id=" + i + "/>");
+            var pokePic = $("<a class='waves-effect waves-light btn' href='#modal1'><div class = 'col l3 m3 s3 xs1'><img class = 'pokepoke' src=http://pokeapi.co/media/img/" + i + ".png id=" + i + "/>");
             $('.pokemon').append(pokePic);
             }
+            $('#modal1').modal('open');
         })
         .fail(function(){
             console.log('error');

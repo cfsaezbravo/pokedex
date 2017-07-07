@@ -7,14 +7,19 @@ h1{
 	color: #e84848;
 }
 
-img{
+.btn{
 	height: 150px;
 	width: 150px;
+	margin: 5px;
+	background-image: ;
 }
 
-.pokepoke{
-	background-color: #dbdbdb;
-	border: 2px solid #e84848;
+.pokepoke {
+    height: 150px;
+    width: 150px;
+    margin-left: -39px;
+    background-color: #dbdbdb;
+    border: 2px solid #e84848;
 }
 
 #icon_prefix {
